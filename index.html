@@ -52,12 +52,25 @@
         <p>My name is Peter-Jan and I am a Research Student at IBM Research Zurich and VU University Amsterdam.</p>
         <p>Below you will find a list of interesting stuff I work(ed) on. You might also enjoy <a href="https://github.com/Peter-JanGootzen">my Github</a>.</p>
         <h2>DPFS: DPU-Powered File System Virtualization (Research ongoing)</h2>
-        <p>Research that started during my IBM Research internship and has grown into a full open-source project that has sparked significant interest in and outside of IBM.
-        I am currently continuing the research for my MSc thesis.</p>
-        <p>The DPFS framework allows Cloud and datacenter operators to provide virtualized file system services to tenants using DPU-offloading.
-        With DPFS the complete file system implementation runs on the CPU complex of the DPU.
-        Tenants consume the file system through the `virtio-fs` device that the DPU exposes over PCIe (multi-tenancy via SR-IOV).</p>
         <p>
+            Research that started during my IBM Research internship and has grown into a full open-source project that has sparked significant interest in and outside of IBM.
+            I am currently continuing the research for my MSc thesis.</p>
+        <p>
+            The DPFS framework allows Cloud and datacenter operators to provide virtualized file system services to tenants using DPU-offloading.
+            With DPFS the complete file system implementation runs on the CPU complex of the DPU.
+            Tenants consume the file system through the `virtio-fs` device that the DPU exposes over PCIe (multi-tenancy via SR-IOV).</p>
+        <p>
+            For this project I:
+        <p>
+            <ul>
+                <li>uncovered undocumented features in our DPU's firmware and software, and added features and bug fixes in said software</li>
+                <li>implemented the Networked File System protocol (NFS) in userspace</li>
+                <li>ported the lowlevel libfuse API to our framework</li>
+                <li>did a bit of RDMA debugging and coding</li>
+                <li>did Linux kernel debugging and patch development</li>
+                <li>performed many low-level performance optimization iterations</li>
+            </ul>
+        </p>
         <ul>
             <li><a href="DPFS_OFA.pdf">OpenFabrics Alliance '23 presentation</a></li>
             <li><a href="https://github.com/IBM/DPFS">Open Source framework @Github</a></li>
