@@ -53,28 +53,28 @@
         <p>Below you will find a list of interesting stuff I work(ed) on. You might also enjoy <a href="https://github.com/Peter-JanGootzen">my Github</a>.</p>
         <h2>DPFS: DPU-Powered File System Virtualization (Research ongoing)</h2>
         <p>
-            Research that started during my IBM Research internship and has grown into a full open-source project that has sparked significant interest in and outside of IBM.
+            This research started during my IBM Research Zurich internship and has grown into a full open-source project that has sparked significant interest in and outside of IBM.
             I am currently continuing the research for my MSc thesis.</p>
         <p>
             The DPFS framework allows Cloud and datacenter operators to provide virtualized file system services to tenants using DPU-offloading.
             With DPFS the complete file system implementation runs on the CPU complex of the DPU.
             Tenants consume the file system through the `virtio-fs` device that the DPU exposes over PCIe (multi-tenancy via SR-IOV).</p>
-        <p>
-            For this project I:
-        <p>
-            <ul>
-                <li>uncovered undocumented features in our DPU's firmware and software, and added features and bug fixes in said software</li>
-                <li>implemented the Networked File System protocol (NFS) in userspace</li>
-                <li>ported the lowlevel libfuse API to our framework</li>
-                <li>did a bit of RDMA debugging and coding</li>
-                <li>did Linux kernel debugging and patch development</li>
-                <li>performed many low-level performance optimization iterations</li>
-            </ul>
         </p>
         <ul>
+            <li>Our paper got accepted at ACM Systor '23! (Preprint coming soon)</li>
             <li><a href="DPFS_OFA.pdf">OpenFabrics Alliance '23 presentation</a></li>
             <li><a href="https://github.com/IBM/DPFS">Open Source framework @Github</a></li>
             <li><a href="https://github.com/Peter-JanGootzen/linux">virtio-fs Linux kernel module patches</a>: Multi-queue and latency improvements</li>
+        </ul>
+        <h5>Noteable things I did for this research:<h5>
+        <ul>
+            <li>uncovered undocumented features in our DPU's firmware and software, and added features and bug fixes to said software</li>
+            <li>implemented the Networked File System protocol (NFS) in userspace</li>
+            <li>ported the lowlevel libfuse API to our framework</li>
+            <li>did a bit of RDMA debugging and coding</li>
+            <li>did Linux kernel debugging and patch development</li>
+            <li>performed many low-level performance optimization iterations</li>
+            <li>created an extensive set reproducible experiments</li>
         </ul>
         <h2 id="bento">Bento and the Art of Repeated Research</h2>
         <p>Research project under supervison of Assistant Professor Animesh Trivedi on Rust File Systems</p>
@@ -103,7 +103,7 @@
             <li><a href="#bento">Bento and the Art of Repeated Research</a></li>
         </ul>
         <h1 id="lfw" class="rainbow rainbow_text_animated">Looking for work!</h2>
-        <p>I am currently looking for a full-time position in the Netherlands after finishing my MSc degree (planned graduation is end of August 2023).</p>
+        <p>I am currently looking for a full-time position in the Netherlands (remote possible as well) after finishing my MSc degree (planned graduation is end of August 2023).</p>
         <p>What I have to offer:</p>
         <ul>
             <li>3 Years of Software Engineering experience in Industry and Research environments</li>
@@ -116,7 +116,7 @@
         <p>What I am looking for:</p>
         <ul>
             <li>An employer in the Cloud, Datacenter, HPC or Hardware space (but open for other exciting opportunities)</li>
-            <li>A fun place where I can do R&D or Engineering on systems software</li>
+            <li>A fun place where I can do R&D or Engineering on systems software in the area of operating systems, storage or networking</li>
         </ul>
         <p>You can contact me via <a href="mailto:lookingforwork@peter-jan.dev">lookingforwork@peter-jan.dev</a></p>
     </body>
