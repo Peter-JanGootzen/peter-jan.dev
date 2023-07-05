@@ -10,16 +10,24 @@
         <style>
             body {
                 font-family:Open Sans,Arial;
-                color:#FFFFFF;
                 font-size:16px;
                 margin:2em auto;
                 max-width:800px;
                 padding:1em;
                 line-height:1.4;
-                background-color: #212121;
+                background-color: #F5F5F5;
             }
             a {
-                color: white;
+                color: black;
+            }
+            @media (prefers-color-scheme: dark) {
+                body {
+                    color:#FFFFFF;
+                    background-color: #212121;
+                }
+                a {
+                    color: white;
+                }
             }
             .rainbow {
                 text-align: center;
